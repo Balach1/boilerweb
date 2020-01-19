@@ -2,9 +2,12 @@
 <html>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script type="text/javascript" src="main.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  <script type="text/javascript" src="scripts/main.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+  />
   <body>
     <!-- Navigation -->
     <nav class="w3-bar w3-black">
@@ -13,52 +16,70 @@
       <a href="#shop" class="w3-button w3-bar-item">Shop</a>
       <a href="contact.html" class="w3-button w3-bar-item">Contact</a>
     </nav>
-
     <!-- Slide Show -->
     <section>
-      <img class="mySlides" src="components/youratowel.jpg" style="width:75%" />
-      <img class="mySlides" src="components/youratowel.jpg" style="width:75%" />
-      <img class="mySlides" src="components/youratowel.jpg" style="width:75%" />
+      <img class="mySlides" src="components/youratowel.jpg" style="width:100%" />
+      <img class="mySlides" src="components/youratowel.jpg" style="width:100%" />
+      <img class="mySlides" src="components/youratowel.jpg" style="width:100%" />
     </section>
 
-    <section class="w3-container w3-center" style="max-width:600px">
+    <section class="w3-container w3-content w3-center" style="max-width:600px">
+      <p class="w3-justify"></p>
+    </section>
+<!-- 4 coloum grid *start* -->
+    <div class="row">
+      <div class="column" name="column1">
         <h2 class="w3-wide">MAIN HEADING</h2>
-        <p class="w3-opacity"><i>Some descriptions</i></p>
+          <p class="w3-opacity"><i>Some descriptions</i></p>
+        </div>
+      <div class="column" name="column2">
+      <section class="w3-container w3-center" style="max-width:600px">
+        <h2 class="w3-wide">MAIN HEADING</h2>
+          <p class="w3-opacity"><i>Some descriptions</i></p>
+        </div>
       </section>
+      <div class="column" name="column3">
+      <section class="w3-container w3-center" style="max-width:600px">
+        <h2 class="w3-wide">MAIN HEADING</h2>
+          <p class="w3-opacity"><i>Some descriptions</i></p>
+        </div>
+      </section>
+      <div class="column" name="column4">
+      <h2 class="w3-wide">MAIN HEADING</h2>
+        <p class="w3-opacity"><i>Some descriptions</i></p>
+      </div>
+    </div>
+<!-- End -->
+    <section class="w3-row-padding w3-center w3-light-grey">
+      <article class="w3-third">
+        <p>John</p>
+        <img src="img_bandmember.jpg" alt="Random Name" style="width:100%" />
+      </article>
+      <article class="w3-third">
+        <p>Paul</p>
+        <img src="img_bandmember.jpg" alt="Random Name" style="width:100%" />
+      </article>
+      <article class="w3-third">
+        <p>Ringo</p>
+        <img src="img_bandmember.jpg" alt="Random Name" style="width:100%" />
+      </article>
+    </section>
+    <!-- ABOUT -->
 
-      <section class="w3-container w3-content w3-center" style="max-width:600px">
-        <p class="w3-justify">
-        We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </section>
-
-        <section class="w3-row-padding w3-center w3-light-grey">
-          <article class="w3-third">
-            <p>John</p>
-            <img src="img_bandmember.jpg" alt="Random Name" style="width:100%">
-          </article>
-          <article class="w3-third">
-            <p>Paul</p>
-            <img src="img_bandmember.jpg" alt="Random Name" style="width:100%">
-          </article>
-          <article class="w3-third">
-            <p>Ringo</p>
-            <img src="img_bandmember.jpg" alt="Random Name" style="width:100%">
-          </article>
-        </section>
-        <!-- ABOUT -->
-        
-
-        <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-flickr"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
-  <p class="w3-medium">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
-  </p>
-</footer>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+      <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-flickr"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <p class="w3-medium">
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </footer>
     <!-- Content will go here -->
   </body>
 </html>

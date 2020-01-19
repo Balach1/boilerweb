@@ -416,3 +416,22 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
       margin-top: 0;
     }
   }
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
